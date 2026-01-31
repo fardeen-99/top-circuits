@@ -11,11 +11,28 @@ html,body{
   scroll-padding-top: 42px; 
     width: 100%;
 }
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0f172a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}
+
 #main{
     height: auto;
     width: 100%;
     margin: auto;
-    
+    overflow-x: hidden;
     /* padding: 30px; */
     position: relative;
      background: linear-gradient(#0F3D3E,#1A1A1A);
@@ -118,7 +135,7 @@ button{
     background-color: #00E676;
     border: none;
     border-radius: 17px;
-    /* color: white; */
+    color: white;
     
 }
 .b1 a{
@@ -139,7 +156,7 @@ button{
 .b2{
     padding: 15px 30px;
     background-color:#0F3D3E ;
-    border:1px solid #1a6440;
+    /* border:1px solid #1a6440; */
     border: none;
     border-radius: 17px;
     color: white;
