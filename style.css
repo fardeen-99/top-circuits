@@ -162,11 +162,13 @@ button{
     color: white;
     border: 1px solid white;
 
+  
+
 }
 .l-btn{
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 21px;
     margin-top: 20px;
 }
 .l-box{
@@ -1008,3 +1010,24 @@ body.blur-active .lion {
     transform: scale(1.05);
 }
 
+.get-started-btn{
+    white-space: nowrap;
+    padding-inline: 2rem;
+    border-radius: 1rem;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    padding-block: 1rem;
+    border: none;
+    outline: none;
+    background-color: #00FF88;
+    color: whitesmoke;
+}
+a{
+    text-decoration: none;
+}
+button{
+      &:active{
+        scale: 0.95;
+    }
+}
